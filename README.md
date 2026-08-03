@@ -1,5 +1,5 @@
 <!-- title: Docker and AI -->
-<span style="font-size:2em;text-align:center;">Docker and AI</span>
+<span style="font-size:2em;text-align:center;">Docker and AI</span> 
 
 AI experiments once they produce the desired output are rarely "good to go". Fast prototyping to deliver the promises of AI is a challenge by itself, paying attention to future maintainability and stability is a lesser priority.
 The goal of this article is to present a few best practices that you could simply copy paste to your projects and avoid facing later operationalization issues. This mostly applies to containerized python application. 
