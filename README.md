@@ -3,7 +3,7 @@
 
 AI experiments once they produce the desired output are rarely "good to go". Fast prototyping to deliver the promises of AI is a challenge by itself, paying attention to future maintainability and stability is a lesser priority.
 The goal of this article is to present a few best practices that you could simply copy paste to your projects and avoid facing later operationalization issues. This mostly applies to containerized python application. 
-
+ 
 We have faced this many time, a mini application works on a laptop and is published to a hosted environment such as [SAP BTP, Kyma runtime](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime?tab=feature&region=all). Some issues occur during the migration, some during a routine security audit, others can occur weeks later. 
 
 - [About Docker containers](#about-docker-containers)
